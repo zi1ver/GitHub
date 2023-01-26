@@ -12,37 +12,26 @@ public class SoundTrigger : MonoBehaviour
         if (collision.CompareTag("colLightMetal"))
         {
             soundManager.PlaySfxLightMetalImpact();
-
-            //test
-            Debug.Log("colLightMetal");
         }
+
         else if (collision.CompareTag("colLoudMetal"))
         {
             soundManager.PlaySfxLoudMetalClang();
-
-            //test
-            Debug.Log("colLoudtMetal");
         }
+
         else if (collision.CompareTag("colClearMetal"))
         {
             soundManager.PlaySfxClearMetalImpact();
-
-            //test
-            Debug.Log("colClearMetal");
         }
+
         else if (collision.CompareTag("colBone"))
         {
             soundManager.PlaySfxBoneImpact();
-
-            //test
-            Debug.Log("colBone");
         }
+
         else if (collision.CompareTag("colCageRattle"))
         {
             soundManager.PlaySfxCageRattle();
-
-            //test
-            Debug.Log("colCageRattle");
         }
     }
 
