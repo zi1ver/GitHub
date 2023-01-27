@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6370228548359020213}
   - component: {fileID: 3652795610714536456}
   - component: {fileID: 5329202924271781422}
+  - component: {fileID: 4786713366875268983}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: colLightMetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,6 +98,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &4786713366875268983
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166261659564833944}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.05, y: 1, z: 1.05}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1688903255523660598
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,9 +123,10 @@ GameObject:
   - component: {fileID: 6875846845607355966}
   - component: {fileID: 8895631075427226226}
   - component: {fileID: 9222789390454619265}
+  - component: {fileID: 4494850074326971359}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: colLightMetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,6 +209,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &4494850074326971359
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688903255523660598}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.05, y: 1, z: 1.05}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4676185596832418316
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,9 +234,10 @@ GameObject:
   - component: {fileID: 788870011961926816}
   - component: {fileID: 510621788116048938}
   - component: {fileID: 603154370187159547}
+  - component: {fileID: 7293120797757329833}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: colLightMetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -290,6 +319,19 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &7293120797757329833
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4676185596832418316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.05, y: 1, z: 1.05}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6040487688638255244
 GameObject:
