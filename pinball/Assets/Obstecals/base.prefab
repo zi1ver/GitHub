@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 8277330618153252616}
   m_Layer: 0
   m_Name: right wall
-  m_TagString: Untagged
+  m_TagString: colBone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 7135650037208852297}
   m_Layer: 0
   m_Name: Left wall
-  m_TagString: Untagged
+  m_TagString: colBone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -371,9 +371,10 @@ GameObject:
   - component: {fileID: 8706882162493080114}
   - component: {fileID: 29610465373337318}
   - component: {fileID: 7370725240021502244}
+  - component: {fileID: 6965182305955733506}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: colLightMetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -456,6 +457,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &6965182305955733506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5927338241766393596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.05, y: 1.5, z: 1.05}
+  m_Center: {x: 0, y: 0.2, z: 0}
 --- !u!1 &7677565028375446734
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,9 +482,10 @@ GameObject:
   - component: {fileID: 4959482837432287933}
   - component: {fileID: 6861809425176341113}
   - component: {fileID: 4675149080519777370}
+  - component: {fileID: 7177281023799117532}
   m_Layer: 0
   m_Name: Cube 2
-  m_TagString: Untagged
+  m_TagString: colLightMetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -553,6 +568,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &7177281023799117532
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7677565028375446734}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.05, y: 1.5, z: 1.05}
+  m_Center: {x: 0, y: 0.2, z: 0}
 --- !u!1 &7993633318927442892
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,9 +593,10 @@ GameObject:
   - component: {fileID: 6895781824554012401}
   - component: {fileID: 6595204565505860134}
   - component: {fileID: 5661663906010730230}
+  - component: {fileID: 6279929831591618942}
   m_Layer: 0
   m_Name: ceiling
-  m_TagString: Untagged
+  m_TagString: colBone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -649,6 +678,19 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &6279929831591618942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7993633318927442892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8956408147016384973
 GameObject:
